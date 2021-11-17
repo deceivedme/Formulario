@@ -128,7 +128,7 @@
                         <button class="btn btn-outline-dark d-inline-block text-light mb-3 width-100" onclick=" location.href='https://www.facebook.com/profile.php?id=100074506975087' "><i class="icon ion-logo-facebook lead align-middle mr-2"></i> Facebook</button>
     
                         {{-- BOTTON Twitch   --}}
-                        <button class="btn btn-outline-dark d-inline-block text-light mb-3 width-100" onclick=" location.href='https://www.twitch.tv/arteezy' "><i class="icon ion-logo-twitch lead align-middle mr-2"></i> Twitch</button>
+                        <button class="btn btn-outline-dark d-inline-block text-light mb-3 width-100" onclick=" location.href='https://www.twitch.tv/duskalor' "><i class="icon ion-logo-twitch lead align-middle mr-2"></i> Twitch</button>
 
                         
                     </div>
