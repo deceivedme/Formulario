@@ -117,7 +117,7 @@
            </div>
            <div class="col-xl-7 col-lg-12 d-flex">
                 <div class="container align-self-center p-6">
-                    <h1 class="font-weight-bold mb-3">The Last Week of Informatics CI</h1>
+                    <h1 class="font-weight-bold mb-3">REGISTRO A LA SEMANA INFORMÁTICA</h1>
                     <p class="text-muted mb-3">Accede a nuestras Plataformas.</p>
                     <div class="form-group">
 
