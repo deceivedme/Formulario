@@ -65,7 +65,7 @@
 
         .register-bg {
             /* background-image: url("public/images/hero.jpg");     */
-            background-image: url("https://static.wikia.nocookie.net/doblaje/images/a/a1/Fatestay_night_unlimited_blade_works_anime.jpg/revision/latest?cb=20200709195307&path-prefix=es");
+            background-image: url("https://2.bp.blogspot.com/-80DLBRUEzmQ/Va3dEcgLNiI/AAAAAAAA9BY/DKTq9OGwr4w/s1600/mj2.jpg");
             /* background-image: url("https://i.pinimg.com/originals/6b/10/14/6b101427e73dc4229080be613f8451d9.gif"); */
             
             
