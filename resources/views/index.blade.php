@@ -155,7 +155,7 @@
                             <input type="number" class="form-control" name="numero" placeholder="Ingresa su telefono">
                         </div>
                         
-                       {{-- <div class="form-group mb-3">
+                       <div class="form-group mb-3">
                              <label class="font-weight-bold" for="sel1">Semestre <span class="text-danger">*</span></label>
                              <select class="custom-select"  style="background:#1f232b;color:#6c757d;border:0px " id="sel1">
 
@@ -168,7 +168,7 @@
 
                             </select>                             
                              
-                        </div>--}} 
+                        </div>
                            
 
                         <div class="form-group mb-5">
