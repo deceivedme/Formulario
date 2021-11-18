@@ -65,7 +65,7 @@
 
         .register-bg {
             /* background-image: url("public/images/hero.jpg");     */
-            background-image: url("https://2.bp.blogspot.com/-80DLBRUEzmQ/Va3dEcgLNiI/AAAAAAAA9BY/DKTq9OGwr4w/s1600/mj2.jpg");
+            background-image: url("https://i.pinimg.com/564x/6c/33/e4/6c33e4958b81624198a12348b5172982.jpg");
             /* background-image: url("https://i.pinimg.com/originals/6b/10/14/6b101427e73dc4229080be613f8451d9.gif"); */
             
             
