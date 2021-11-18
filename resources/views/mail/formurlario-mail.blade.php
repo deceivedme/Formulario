@@ -1,6 +1,6 @@
 <body>
-    <h1>Correo elctrónico</h1>
-    <p>Este es el primer correo que mandaré por Laravel</p>
+    <h1>THE LAST WEEK OF INFORMARICS CI</h1>
+    <p>Ud se registro correctamente con los siguiente información: </p>
     <p><strong>Nombre:</strong> {{$informacion['nombre']}}</p>
     <p><strong>Apellido:</strong> {{$informacion['apellido']}}</p>
     <p><strong>Correo:</strong> {{$informacion['correo']}}</p>
