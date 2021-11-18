@@ -5,6 +5,10 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Formulario;
 
+use App\Mail\FormurlarioMail;
+use Illuminate\Support\Facades\Mail;
+
+
 class FormularioController extends Controller
 {
     /**
@@ -44,17 +48,31 @@ class FormularioController extends Controller
         $mensajeDeError = [
         'required' => 'Ingreso de datos erróneo'
         ];
-        $this->validate($request, $reglas, $mensajeDeError);
+
+        $paraenviar = $request->get('correo');
+        
+        $mensaje = new FormurlarioMail($request->all());        
+        Mail::to($paraenviar)->send($mensaje);
+
+        
+        $this->validate($request, $reglas, $mensajeDeError);    
+
         $formulario= new Formulario();
         
-        $formulario->nombre = $request->get('nombre');
+        $formulario->nombre   = $request->get('nombre');
         $formulario->apellido = $request->get('apellido');
-        $formulario->correo = $request->get('correo');
-        $formulario->numero = $request->get('numero');
+        $formulario->correo   = $request->get('correo');
+        $formulario->numero   = $request->get('numero');
         
-        $formulario->save();
+        $formulario->save();     
+        
 
-        return redirect('/');
+       
+        
+        return "Mensaje enviado";    
+
+
+        // return redirect('/');
 
     }
 
