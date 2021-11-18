@@ -155,20 +155,7 @@
                             <input type="number" class="form-control" name="numero" placeholder="Ingresa su telefono">
                         </div>
                         
-                       <div class="form-group mb-3">
-                             <label class="font-weight-bold" for="sel1">Semestre <span class="text-danger">*</span></label>
-                             <select class="custom-select"  style="background:#1f232b;color:#6c757d;border:0px " id="sel1">
-
-                             <optgroup>  
-                                <option value="ninguno"> No pertenezco a la Institución </option>                               
-                                <option value="2do"> 2do Semestre </option>
-                                <option value="3ro"> 4to Semestre </option>
-                                <option value="4to"> 6to Semestre </option>
-                            </optgroup> 
-
-                            </select>                             
-                             
-                        </div>
+                       
                            
 
                         <div class="form-group mb-5">
