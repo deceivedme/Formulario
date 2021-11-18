@@ -69,10 +69,11 @@ class FormularioController extends Controller
 
        
         
-        return "Mensaje enviado";    
+        //return "Mensaje enviado";    
 
 
-        // return redirect('/');
+        return view('welcome1');
+        
 
     }
 
