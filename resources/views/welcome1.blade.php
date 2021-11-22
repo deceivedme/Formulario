@@ -7,7 +7,7 @@
     <title>Document</title>
     <style>
         body{
-            background-color:greenyellow;
+            background-color:rgb(36, 35, 114);
         }
     </style>
 </head>
