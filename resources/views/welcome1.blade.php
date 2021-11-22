@@ -9,9 +9,16 @@
         body{
             background-color:rgb(36, 35, 114);
         }
+        h1{
+            text-align: center;
+            color: aliceblue
+
+
+        }
     </style>
 </head>
 <body>
+    <h1>REGISTRADO EXITOSAMENTE<h1>
     
 </body>
 </html>
